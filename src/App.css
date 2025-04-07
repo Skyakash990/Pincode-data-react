@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 .heading{
   position: absolute;
   width: 1167px;
@@ -120,7 +126,7 @@ letter-spacing: 0%;
 }
 
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
   .filter-div{
     width: 350px;
   }
@@ -132,6 +138,7 @@ letter-spacing: 0%;
     align-items: center;
   }
   .heading{
+    width: 300px;
     left: 65px;
   }
   .input-container{
