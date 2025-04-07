@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      <PinContext.Provider value={{ setPincode, data, loading ,filteredText, setFilteredText ,postOffice ,filteredOffices }}>
+      <PinContext.Provider value={{pincode, setPincode, data, loading ,filteredText, setFilteredText ,postOffice ,filteredOffices }}>
       {/* <DisplayData /> */}
       {/* {!data?<PincodeInput/>:<DisplayData/>} */}
         {loading ? (<div className="loader"></div>) : data ? (<DisplayData />) : (<PincodeInput />)}

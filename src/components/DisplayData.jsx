@@ -23,8 +23,8 @@ const DisplayData = () => {
 
   return (
     <div className="container">
-      <h1>Pincode:{pincode}</h1>
-      <p>{data.Message}</p>
+      <h1 className="pincode-num">Pincode:{pincode}</h1>
+      <p className="found-msg">{data.Message}</p>
         <div className="filter-div">
           <i className="bx bx-search"></i>
           <input

@@ -98,7 +98,7 @@ font-size: 32px;
   width: 1408px;
   height: 45px;
   position: absolute;
-  top: 120px;
+  top: 100px;
   left: 0px;
   border-radius: 10px;
   border: 3px solid #000000;
@@ -128,10 +128,11 @@ letter-spacing: 0%;
 
 @media screen and (max-width: 768px){
   .filter-div{
-    width: 350px;
+    left: 15px;
+    width: 330px;
   }
   .pin-datacontainer{
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,5 +147,19 @@ letter-spacing: 0%;
   }
   .look{
     top: 180px;
+  }
+  .pincode-num{
+    margin-left: 20px;
+  }
+  .found-msg{
+    margin-left: 20px;
+    padding-top: 10px;
+    /* margin-top: 10px; */
+  }
+  .pincode-data{
+    padding-top: 30px;
+  }
+  .pincode-data p{
+    padding-bottom: 12px;
   }
 }
