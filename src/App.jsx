@@ -13,6 +13,7 @@ function App() {
   const [postOffice,setPostOffice]=useState([]);
   const [filteredText,setFilteredText]=useState('');
 
+
   // console.log(pincode)
   useEffect(() => {
     if (pincode) {
@@ -35,9 +36,8 @@ function App() {
   },[pincode]);
   
   //Filter input values
-  const filteredOffices = postOffice ? postOffice.filter((office) =>
-    office?.Name?.toLowerCase().includes(filteredText.toLowerCase())
-  ) : [];
+  const filteredOffices =  postOffice.filter((office) =>
+    office.Name.toLowerCase().includes(filteredText.toLowerCase()));
   
   console.log("filtered Offices",filteredOffices);
 

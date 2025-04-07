@@ -117,6 +117,7 @@ const DisplayData = () => {
             </p>
           </div>
         ))} */}
+              <button className="back">Back</button>
         </div>
       </div>
   );
