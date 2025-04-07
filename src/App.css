@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.heading{
+  position: absolute;
+  width: 1167px;
+  height: 41px;
+  top: 33px;
+  left: 41px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+.input-container{
+  position: absolute;
+  width: 1408px;
+  height: 45px;
+  top: 110px;
+  left: 41px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.input{
+  width: 176px;
+  height: 38px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 22px;
+  border: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  outline: none;
+}
+.look{
+  width: 303px;
+  height: 67px;
+  position: absolute;
+  top: 170px;
+  left: 41px;
+  border-radius: 10px;
+background-color: #000000;
+color: white;
+font-size: 32px;
+}
+
+.pincode-data{
+  width: 300px;
+  height: 200px;
+  padding: 10px 15px;
+  /* position: absolute; */
+  margin-top:10px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+.container{
+  position: absolute;
+  top: 100px;
+}
+.pin-datacontainer{
+  margin-top: 120px;
+  display: flex;
+  margin-bottom:100px;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-family: "inter";
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.filter-div{
+  width: 1408px;
+  height: 45px;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+.filter-div input{
+  width: 176px;
+  height: 38px;
+  position: absolute;
+  top: 2px;
+  left: 30px;
+  border: none;
+  outline: none;
+  font-family: "inter";
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.filter-div i{
+  position: absolute;
+  top: 12px;
+  font-size: 22px;
+  left: 5px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px){
+  .filter-div{
+    width: 350px;
+  }
+  .pin-datacontainer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading{
+    left: 65px;
+  }
+  .input-container{
+    width: 300px;
+  }
+  .look{
+    top: 180px;
+  }
+}
