@@ -22,7 +22,7 @@
   position: absolute;
   width: 1408px;
   height: 45px;
-  top: 110px;
+  top: 90px;
   left: 41px;
   overflow-y: hidden;
   border: 3px solid #000000;
@@ -69,6 +69,8 @@
   border: 3px solid #000000;
 }
 .container{
+  width: 100%;
+  margin-left: 20px;
   position: absolute;
   top: 100px;
 }
