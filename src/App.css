@@ -178,6 +178,7 @@
   }
   .pincode-data{
     padding-top: 30px;
+    overflow-y: hidden;
   }
   .pincode-data p{
     padding-bottom: 12px;
